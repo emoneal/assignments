@@ -1,0 +1,22 @@
+.blue {
+    position: absolute;
+    background-color: #002495;
+    width: 400px;
+    height: 800px;
+}
+
+.white {
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 800px;
+    margin-left: 400px;
+}
+
+.red {
+    position: absolute;
+    background-color: #ED2938;
+    width: 400px;
+    height: 800px;
+    margin-left: 800px;
+}

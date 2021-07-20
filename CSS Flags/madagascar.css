@@ -1,0 +1,23 @@
+.white {
+    position: absolute;
+    width: 400px;
+    height: 800px;
+    background-color: #FFFFFF;
+}
+
+.red {
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    margin-left: 400px;
+    background-color: #FC3E32;
+}
+
+.green {
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    margin-left: 400px;
+    margin-top: 400px;
+    background-color: #007E39;
+}

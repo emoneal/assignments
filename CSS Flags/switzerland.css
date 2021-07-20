@@ -1,0 +1,24 @@
+.red {
+    position: absolute;
+    height: 800px;
+    width: 800px;
+    background-color: #FF0002;
+}
+
+.white-horizontal {
+    position: absolute;
+    background-color: #FFFFFF;
+    height: 100px;
+    width: 400px;
+    margin-left: 200px;
+    margin-top: 350px
+}
+
+.white-vertical {
+    position: absolute;
+    background-color: #FFFFFF;
+    height: 400px;
+    width: 100px;
+    margin-left: 350px;
+    margin-top: 200px
+}

@@ -1,0 +1,22 @@
+.blue {
+    position: absolute;
+    height: 800px;
+    width: 1600px;
+    background-color: #0269A6;
+}
+
+.yellow-horizontal {
+    position: absolute;
+    height: 150px;
+    width: 1600px;
+    background-color: #FECC00;
+    margin-top: 350px;
+}
+
+.yellow-vertical {
+    position: absolute;
+    height: 800px;
+    width: 150px;
+    background-color: #FECC00;
+    margin-left: 300px;
+}
