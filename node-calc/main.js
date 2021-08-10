@@ -1,0 +1,36 @@
+const readline = require("readline-sync")
+
+var calculate = function(num1, num2, op) {
+    this.x = parseInt(num1);
+    this.y = parseInt(num2);
+    this.op = op;
+
+    this.result = function () {
+        var x = this.x;
+        var y = this.y;
+        var op = this.op;
+
+        if (op === "+") {
+            var result = x + y;
+        } else if (op === "*") {
+            var result = x * y;
+        } else if (op === "/") {
+            var result = x / y;
+        } else if (op === "-") {
+            var result = x - y;
+        } else {
+            var result = "Can't compute!";
+        }
+
+    }
+
+    console.log("The result is " + result);
+
+}
+
+var num1 = readline.question("Please enter a number: ");
+var op = readline.question("Please enter an operator: ");
+var num2 = readline.question("Please enter another number: ");
+
+var calc = calculate(num1, num2, op);
+calc.result();
