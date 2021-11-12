@@ -1,0 +1,25 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <form name="travelForm">
+            <input type="text" placeholder="First Name" name="firstName" required/><br><br>
+            <input type="text" placeholder="Last Name" name="lastName" required/><br><br>
+            <input type="number" placeholder="Age" name="age" required/><br><br>
+            Gender:<br>
+            Male: <input type="radio" name="gender" value="male" required/>
+            Female: <input type="radio" name="gender" value="female" required/><br>
+            Destination: <select name="city">
+                <option value="Tokyo">Tokyo</option>
+                <option value="Bangkok">Bangkok</option>
+                <option value="Vancouver">Vancouver</option>
+            </select><br>
+            Dietary Restrictions: <br>
+            Vegetarian <input type="checkbox" value="vegetarian" name="diet">
+            Kosher <input type="checkbox" value="kosher" name="diet">
+            Lactose Free <input type="checkbox" value="lactosefree" name="diet"><br>
+            <button>Submit</button>
+        </form>
+        <script src="index.js"></script>
+    </body>
+</html>
