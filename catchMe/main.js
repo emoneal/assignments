@@ -14,7 +14,7 @@ function login(input, password) {
     try {
         if (input == user.username && password == user.password) {
             console.log("You are logged in");
-        } else if (input || password == "") {
+        } else if (input == "" || password == "") {
             throw "Input cannot be empty";
         } else if (input != user.username || password != user.password) {
             throw "Check your username and password and try again";
