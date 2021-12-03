@@ -87,11 +87,13 @@ todoForm.addEventListener("submit", function(e) {
     const newTodo = {
         title: todoForm.title.value,
         description: todoForm.desc.value,
+        price: todoForm.price.value,
         imgUrl: todoForm.imgURL.value
     }
 
     todoForm.title.value = ""
     todoForm.desc.value = ""
+    todoForm.price.value = ""
     todoForm.imgURL.value = ""
 
     axios.post("https://api.vschool.io/emioneal/todo", newTodo)
