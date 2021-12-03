@@ -44,6 +44,9 @@ function listData(data) {
             h4.style.setProperty("text-decoration", "line-through")
         }
 
+        const priceText = document.createElement('h4')
+        priceText.textContent = data[i].price
+
         const hr = document.createElement('hr')
 
         const delButton = document.createElement('button')
@@ -60,6 +63,7 @@ function listData(data) {
         document.getElementById('todo-list').appendChild(checkbox)
         document.getElementById('todo-list').appendChild(img)
         document.getElementById('todo-list').appendChild(h2)
+        document.getElementById('todo-list').appendChild(priceText)
         document.getElementById('todo-list').appendChild(h4)
         document.getElementById('todo-list').appendChild(delButton)
         document.getElementById('todo-list').appendChild(hr)
