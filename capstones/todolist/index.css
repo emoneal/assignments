@@ -32,7 +32,7 @@ img:hover {
     opacity: 100%
 }
 
-#todo-list > img, h2, h4 {
+#todo-list > img, h2, h4, button {
     display: inline;
 }
 
@@ -40,7 +40,7 @@ h1 {
     margin: 2%;
 }
 
-h2, h4 {
+h2, h4, checkbox {
     line-height: 100px;
     height: 100px;
     text-align: center;
@@ -49,4 +49,13 @@ h2, h4 {
     padding-left: 50px;
     position: relative;
     bottom: 50px;
+}
+
+#deleteButton {
+    background-color:red;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    bottom: 50px;
+    left: 20px 
 }

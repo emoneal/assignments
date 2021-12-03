@@ -1,12 +1,11 @@
 var user = {username: "sam", password: "123abc"};
 const form = document.loginForm
-let input = ""
-let password = ""
+
 
 loginForm.addEventListener("submit", function(event){
     event.preventDefault();
-    input = form.login.value
-    password = form.password.value 
+    var input = form.login.value
+    var password = form.password.value 
     login(input, password);
 })
 
@@ -18,13 +17,14 @@ function login(input, password) {
             throw "Input cannot be empty";
         } else if (input != user.username || password != user.password) {
             throw "Check your username and password and try again";
-        }    
+        }
     } catch(err) {
-            console.log(err)
+            alert(err)
 
         } finally {
-            input = ""
-            password = ""
+            form.login.value = ""
+            form.password.value = ""
+            console.log("Code ran successfully!")
         }
         
     
