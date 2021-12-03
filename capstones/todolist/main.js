@@ -38,14 +38,19 @@ function listData(data) {
 
         const h4 = document.createElement('h4')
         h4.textContent = data[i].description
-        
-        if (data[i].completed === true) {
-            h2.style.setProperty("text-decoration", "line-through")
-            h4.style.setProperty("text-decoration", "line-through")
-        }
+
 
         const priceText = document.createElement('h4')
         priceText.textContent = data[i].price
+
+        if (data[i].completed === true) {
+            h2.style.setProperty("text-decoration", "line-through")
+            h4.style.setProperty("text-decoration", "line-through")
+            priceText.style.setProperty("text-decoration", "line-through")
+            h2.style.setProperty("color", "darkgray")
+            h4.style.setProperty("color", "darkgray")
+            priceText.style.setProperty("color", "darkgray")
+        }
 
         const hr = document.createElement('hr')
 
