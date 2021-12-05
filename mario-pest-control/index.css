@@ -1,0 +1,36 @@
+#shopDiv {
+    margin: auto;
+    width: 30%;
+}
+
+#goomba , #bobombs, #cheepcheeps {
+    display: relative;
+    vertical-align: center;
+    text-align: center;
+    bottom: 20px;
+    position: absolute/justify;
+}
+
+img {
+    max-width: 200px
+}
+
+input {
+    max-width: 40px;
+}
+
+#rightpane {
+    position: fixed;
+    left: 70%;
+    bottom: 50%;
+    color: red;
+}
+
+h1 {
+    font-family: 'Super Mario Bros Alphabet', sans-serif;
+    font-size: 75px;
+}
+
+p {
+    font-style: italic;
+}
