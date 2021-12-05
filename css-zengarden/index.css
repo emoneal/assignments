@@ -1,0 +1,361 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Julius Sans One';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/juliussansone/v9/1Pt2g8TAX_SGgBGUi0tGOYEga5WOzHsX2aE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Julius Sans One';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/juliussansone/v9/1Pt2g8TAX_SGgBGUi0tGOYEga5WOwnsX.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Libre Baskerville';
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/librebaskerville/v9/kmKhZrc3Hgbbcjq75U4uslyuy4kn0qNcWx8QDP2V.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Libre Baskerville';
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/librebaskerville/v9/kmKhZrc3Hgbbcjq75U4uslyuy4kn0qNcWxEQDA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/librebaskerville/v9/kmKnZrc3Hgbbcjq75U4uslyuy4kn0qNXaxMICA.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/librebaskerville/v9/kmKnZrc3Hgbbcjq75U4uslyuy4kn0qNZaxM.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+
+body {
+  background: #325050;
+}
+
+
+#containerDiv {
+    display: grid;
+    grid-template-columns: 1.6fr 1fr;
+}
+
+
+#titlebar {
+    background: urL('http://www.csszengarden.com/214/huntington.jpg');
+    vertical-align: center;
+    padding: 10%;
+}
+
+
+#titlebar > p {
+    display: inline;
+    vertical-align: center;
+}
+
+#titlebar > p > img {
+    position: absolute;
+    display: inline;
+    max-width: 7%;
+}
+
+h1 {
+    font-family: 'Julius Sans One', sans-serif;
+    letter-spacing: 5px;
+    color: white;
+    margin-left: 15%;
+
+}
+
+h2 {
+    font-family: 'Julius Sans One', sans-serif;
+    color: lightgray;
+    font-style: italic;
+    margin-left: 15%;
+
+}
+
+#viewdesigns {
+    object-position: -70% 0;
+    object-fit: cover;
+    background: urL('http://www.csszengarden.com/214/huntington.jpg');
+    text-align: center;
+    padding: 20%;
+    display: flex;
+    flex-direction: row;
+    -ms-flex-align: center;
+}
+
+#designs {
+    margin-left: 25%;
+    text-align: center;
+    vertical-align: center;
+    padding: 30px 30px 30px 30px;
+    width: 200px;
+    opacity: .5;
+    background: gray;
+    font-family: 'Julius Sans One', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    opacity: .5;
+    transition: all 0.3s ease;
+    
+}
+
+#arrow {
+  padding: 30px;
+  margin-top: 30px;  
+  margin:auto;
+  text-align: center;
+  vertical-align: center;
+  margin-left: 100px;
+  width: 50px;
+  opacity: .5;
+  background: gray;
+  font-family: 'Julius Sans One', sans-serif;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  opacity: .5;
+  transition: all 0.3s ease;
+}
+
+#designs:hover {
+  opacity: 1;
+  transition: all 0.3s ease;
+
+}
+
+#arrow:hover {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+#viewdesigns > a {
+  text-decoration: none;
+  font-style: none;
+}
+
+#textbody {
+  padding: 7%;
+  background: white;
+}
+
+#textbody > p {
+  font-family: 'Libre Baskerville', sans-serif;
+  margin: auto;
+  color: #325050;
+  line-height: 200%
+
+}
+
+#textbody > h3 {
+  font-family: 'Julius Sans One', sans-serif;
+  color: #325050;
+}
+
+#navbar {
+  background: lightgray;
+}
+
+#navbar > ul {
+  font-family: 'Julius Sans One', sans-serif;
+  line-height: 100%;
+  list-style-type: none;
+  margin: 10%;
+  padding: 5px;
+  
+}
+
+li {
+  margin: 30px;
+}
+
+li p {
+  margin: 5px;
+  padding: 0;
+  font-family: 'Libre Baskerville', sans-serif;
+}
+
+
+#partdiv {
+    background-attachment: scroll, scroll, fixed;
+    background-image: url('http://www.csszengarden.com/214/contours-opaque.png'), url('http://www.csszengarden.com/214/gridlines-opaque.png'), url('http://www.csszengarden.com/214/bamboo.png');
+    background: rgba(138, 188, 159, .5);
+    padding-right: 5%;
+}
+
+
+
+#participation > p {
+  font-family: 'Libre Baskerville', sans-serif;
+  margin-left: 5%;
+  color: #325050;
+  line-height: 200%
+
+}
+
+#participation > h3 {
+  font-family: 'Julius Sans One', sans-serif;
+  color: #325050;
+  margin-left: 5%;
+}
+
+#viewcss {
+  background: rgba(118, 158, 134, 0.5);
+}
+
+#viewcss ul {
+  list-style-type: none;
+  margin: 30px;
+  line-height: 200%;
+  font-family: 'Julius Sans One', sans-serif;
+  
+}
+
+#viewcss li {
+  border-top: 1px solid #d9e3dc;
+  opacity: .9;
+  width: 30%;
+  padding: 2.5%;
+  text-align: center;
+}
+
+#viewcss a {
+  text-decoration: none;
+}
+
+#requirements {
+  background: white;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#requirements > p {
+  font-family: 'Libre Baskerville', sans-serif;
+  margin-left: 5%;
+  color: #325050;
+  line-height: 200%
+
+}
+
+#requirements > h3 {
+  font-family: 'Julius Sans One', sans-serif;
+  color: #325050;
+  margin-left: 5%;
+}
+
+#blank {
+  background: lightgray;
+}
+
+#footerquote {
+  text-decoration: none;
+  text-align: center;
+  font-size: 30px;
+  padding: 5%;
+  background: url('http://www.csszengarden.com/214/contours.png'), url('http://www.csszengarden.com/214/gridlines.png'), url('http://www.csszengarden.com/214/noise.png'), url('http://www.csszengarden.com/214/koi.jpg');
+  color: lightgray;
+}
+
+#footerquote a {
+  text-decoration: none;
+  color: white;
+}
+
+#footerquote a:hover {
+  text-decoration: underline;
+}
+
+#footer {
+  background: #325050; 
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+
+#footer > div {
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+  margin: 2%;
+  
+}
+
+@media only screen and (max-width: 800px) {
+  #containerDiv {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 15px;
+  }
+  
+  #titlebar {
+    padding: 2%;
+  }
+
+  #titlebar > img {
+    opacity: .3
+  }
+
+  #viewdesigns {
+    padding: 2%;
+    text-align: center;
+    -ms-flex-align: center;
+    -ms-flex-item-align: center;
+    
+  }
+
+  #navbar {
+    grid-row: 12;
+  }
+
+  #navbar ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #viewcss {
+    grid-row: 13;
+  }
+
+  #viewcss ul {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin:auto;
+  }
+
+}
